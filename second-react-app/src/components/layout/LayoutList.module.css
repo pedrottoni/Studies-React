@@ -1,0 +1,13 @@
+.layout {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 100vw;
+  height: calc(100vh - 80px);
+  padding: 1rem;
+  position: absolute;
+  top: 80px;
+  overflow: auto;
+}

@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:sans-serif;
+  margin: 3rem;
+  background-color: hsl(0, 0%, 87%);
+}
+
+h1, h2 {
+  color: hsl(0, 0%, 20%)
+}
+
+.btn {
+  font: inherit;
+  padding: .5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: hsl(330, 100%, 25%);
+  color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(330, 100%, 25%);
+  margin: 0 1rem;
+}
+
+.btn:hover {
+  background-color: hsl(330, 77%, 35%);
+  border-color: hsl(330, 77%, 35%);
+}
+
+.btn--alt {
+  background-color: transparent;
+  color: hsl(330, 100%, 25%);
+}
+
+.btn--alt:hover {
+  background-color: hsl(330, 68%, 91%);
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 4px;
+  box-shadow: 0 1px 4px hsla(0, 0%, 0%, 0.2);
+  padding: 1rem;
+  width: 20rem;
+}
+
+.actions {
+  text-align: right;
+}
+
+.modal {
+  box-shadow: 0 1px 4px hsla(0, 0%, 0%, 0.2);
+  border-radius: 6px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 1rem;
+  text-align: center;
+  width: 30rem;
+  z-index: 10;
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 15rem);
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 1;
+  background-color: hsla(0, 0%, 0%, 0.75);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
